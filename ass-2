@@ -1,0 +1,22 @@
+l=[]
+n=int(input('enter:'))
+for i in range(0,n):
+    x=int(input())
+    l.append(x)
+    min=l[0]
+    max=l[0]
+for i in range(1,n):
+    if(l[i]<min):
+        min=l[i]
+    elif(l[i]>max):
+        max=l[i]
+print(max,min)        
+OUTPUT:
+enter:4
+11
+34
+45
+32
+45 11
+
+    
